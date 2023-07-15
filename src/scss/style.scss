@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  div {
+    padding: 0 15px;
+    max-width: 400px;
+    text-align: center;
+    h1 {
+      font-size: 40px;
+      font-weight: 100;
+    }
+    img {
+      width: 100%;
+    }
+  }
+}
