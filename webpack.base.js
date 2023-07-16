@@ -19,6 +19,13 @@ module.exports = {
       {
         test: /\.html$/,
         use: ["html-loader"]
+      },
+      {
+        test: /(\.(png|jpg|gif|woff|woff2|eot|ttf|otf|mp4|ico|svg|webp|jpeg|pdf))$/,
+        type: "asset/resource",
+        generator: {
+          filename: 'assets/[name]-[hash][ext]'
+        }
       }
     ]
   },
